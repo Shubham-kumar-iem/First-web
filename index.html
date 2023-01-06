@@ -5,7 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<!--     <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <style>
+        *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+    font-family:'segoe ui',sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image:url(bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 25px;
+}
+.logo{
+    font-size: 22px;
+}
+span{
+    color: rgba(0, 149, 40, 0.86);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(5, 192, 55);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:black;
+    transition: .3s;
+    transform: scale(1.2);
+}
+button{
+    border: none;
+    background:black;
+    padding: 15px 30px;
+    border-radius: 22px;
+    color: rgb(36, 255, 94);
+    font-weight: bold;
+    font-size: 17px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background: rgb(36, 255, 94);
+    color: black;
+}
+    </style>
 </head>
 <body>
     <div class="hero">
